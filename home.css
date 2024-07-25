@@ -1,11 +1,11 @@
 
 
 body{
-    height: 100vh;
-    background-color: #000000;
+    height: 100%;
+    /* background-color: #000000; */
     margin: 0;
     padding: 0;
-    background-image: url("/assets/subway 2.jpg");
+    background-image: url("subway\ 2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     /* object-fit: cover; */
@@ -14,6 +14,8 @@ body{
     border:10px solid white;
     animation: rotate-border-color 5s linear infinite
 }
+
+
 
 .overlay {
     position: absolute;
@@ -39,7 +41,7 @@ body{
 #main {
     padding: 0px 30px;
     margin: auto;
-    height: 100%;
+    height: 100vh;
     width: 40vw;
     
     text-align: center;
